@@ -20,7 +20,7 @@ flex-shrink: 0;
 max-width: 25%;
 }
 
-.slider__item-activ{
+.slider__item_activ{
     max-width: 50%;
 }
 .slider__arrow {
