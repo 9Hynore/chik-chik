@@ -3,6 +3,7 @@
 .radio__input {
     position: absolute;
     appearance: none;
+    
 }
 .radio__label {
     display: inline-block;
@@ -13,16 +14,19 @@
     cursor: pointer;
     border: 1px solid #BFBDB2;
     border-radius: 36px;
+
 }
 
 .radio__label:hover:active {
 color: #EFE7BE;
+
 }
 .radio__input:checked + .radio__label,
 .radio__input:focus + .radio__label{
 color: #241D1C;
 background: #F6F3E3;
 z-index: -1;
+
 }
 
 .radio__label_spec {
@@ -32,4 +36,17 @@ z-index: -1;
     background-position: 8px;
     background-repeat: no-repeat;
     z-index: 2;
+}
+
+@media (max-width:768px) {
+    .radio__label{
+        padding: 12px 16px;
+        font-size: 12px;
+    }
+
+    .radio__label_spec{
+        padding-left: 40px;
+        background-size: 24px;
+    }
+    
 }

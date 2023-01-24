@@ -20,7 +20,7 @@ flex-shrink: 0;
 max-width: 25%;
 }
 
-.slider__item_activ{
+.slider__item_active{
     max-width: 50%;
 }
 .slider__arrow {
@@ -55,10 +55,10 @@ background-position: left;
 
 @media (max-width: 1024px) {
     .slider__item {
-        min-width: 30%;
+        max-width: 30%;
     }
-    .slider__item-activ{
-        min-width: 40%;
+    .slider__item_active{
+        max-width: 40%;
     }
     .slider__arrow {
         bottom: 12%;
@@ -72,7 +72,7 @@ background-position: left;
     max-width: 25%;
 }
         
-.slider__item-activ{
+.slider__item_active{
     max-width: 50%;
 }
 

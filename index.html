@@ -58,7 +58,7 @@
                         <li class="slider__item">
                             <img class="slider__img" src="image/photo01.jpg" alt="">
                         </li>
-                        <li class="slider__item slider__item_activ">
+                        <li class="slider__item slider__item_active">
                             <img class="slider__img" src="image/photo02.jpg" alt="">
                         </li>
                         <li class="slider__item">
@@ -92,7 +92,7 @@
         <div class="conteiner">
             <h2 class="price__title">Стоимость наших услуг</h2>
             <p class="price__subtitle">...бесценна, но всё же</p>
-            <div class="price_wrapper-content">
+            <div class="price__wrapper-content">
                 <div class="price__content">
                     <ul class="price__list">
                         <li class="price__item">
@@ -124,7 +124,7 @@
                             <span class="price__item-count">1000 руб</span>
                         </li>
                     </ul>
-                    <a class="price__link main-link" href="#">Записаться</a>
+                    <a class="price__link main-link" href="#reserve">Записаться</a>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
                 </li>
                 <li class="about__item about__item__mid">
                     <h3 class="about__item-title">Мастера бород и усов</h3>
-                    <p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p>
+                    <p class="about__item-description">Мы заботливо уложим вашу бороду и&nbsp;усы</p>
                 </li>
                 <li class="about__item about__item__right">
                     <h3 class="about__item-title">Гарантия качества</h3>
@@ -233,7 +233,7 @@
                         <fieldset class="reserve__fieldset reserve__fieldset_sub">
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="month">
-                                <span class="radio__label radio__label_spec">Январь</span>
+                                <span class="radio__label">Январь</span>
                             </label>
 
                             <label class="radio">
@@ -305,7 +305,7 @@
                     </fieldset>
                         
                 </div>
-                <button class="reserv__btn main-link">Записаться</button>
+                <button class="reserve__btn main-link">Записаться</button>
             </form>
         </div>
     </section>
@@ -313,23 +313,24 @@
 
 <footer class="footer">
     <div class="conteiner">
-        <img src="image/logo.svg" alt="Логотип барбершоп">
-        <nav class="header__navigation navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a href="#price" class="navigation__link">Cтоимость услуг</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#about" class="navigation__link">О нас</a>
-                </li>
-            </ul>
-        </nav>
-            <div class="did">
-                <p>Designer: Anastasia Ilina</p>
-                <p>Developer: Kirgintsev Eduard</p>
+        <div class="footer__conteiner">
+            <img src="image/logo.svg" alt="Логотип барбершоп">
+            <div class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#price" class="navigation__link">Cтоимость услуг</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#about" class="navigation__link">О нас</a>
+                    </li>
+                </ul>
             </div>
-            <div class="copiright">
-                <p>© chik chik, 2023</p>
+                <ul class="footer__developers">
+                    <li class="footer__developer">Designer: <a class="footer__developer-link" href="https://t.me/Marshmallowww">Anastasia Ilina</a></li>
+                    <li class="footer__developer">Developer: <a class="footer__developer-link" href="https://t.me/Hynore">Kirgintsev Eduard</a></li>
+                </ul>
+                    <p class="footer__copyright">© chik chik, 2023</p>
+
             </div>
     </div>
 </footer>
