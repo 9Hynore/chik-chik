@@ -17,7 +17,7 @@
 
 }
 
-.radio__label:hover:active {
+.radio__label:hover:not(:disabled) {
 color: #EFE7BE;
 
 }
@@ -26,7 +26,10 @@ color: #EFE7BE;
 color: #241D1C;
 background: #F6F3E3;
 z-index: -1;
+}
 
+.radio__input:disabled + .radio__label{
+    opacity: 0.3;
 }
 
 .radio__label_spec {
