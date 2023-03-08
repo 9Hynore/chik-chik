@@ -1,0 +1,1 @@
+export const API_URL = 'https://elegant-shrub-maraca.glitch.me/';
